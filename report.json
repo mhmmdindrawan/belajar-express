@@ -1,0 +1,597 @@
+
+{
+  "header": {
+    "reportVersion": 5,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "report.json",
+    "dumpEventTime": "2025-07-24T19:25:14Z",
+    "dumpEventTimeStamp": "1753359914337",
+    "processId": 17344,
+    "threadId": 0,
+    "cwd": "C:\\Users\\USER\\Documents\\belajar-express",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "report.mjs"
+    ],
+    "nodejsVersion": "v22.13.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "acorn": "8.14.0",
+      "ada": "2.9.2",
+      "amaro": "0.2.0",
+      "ares": "1.34.4",
+      "brotli": "1.1.0",
+      "cjs_module_lexer": "1.4.1",
+      "cldr": "46.0",
+      "icu": "76.1",
+      "llhttp": "9.2.1",
+      "modules": "127",
+      "napi": "9",
+      "nbytes": "0.1.1",
+      "ncrypto": "0.0.1",
+      "nghttp2": "1.64.0",
+      "nghttp3": "1.6.0",
+      "ngtcp2": "1.9.1",
+      "node": "22.13.1",
+      "openssl": "3.0.15+quic",
+      "simdjson": "3.10.1",
+      "simdutf": "5.6.4",
+      "sqlite": "3.47.2",
+      "tz": "2024b",
+      "undici": "6.21.1",
+      "unicode": "16.0",
+      "uv": "1.49.2",
+      "uvwasi": "0.0.21",
+      "v8": "12.4.254.21-node.22",
+      "zlib": "1.3.0.1-motley-82a5fec"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Jod",
+      "headersUrl": "https://nodejs.org/download/release/v22.13.1/node-v22.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v22.13.1/node-v22.13.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v22.13.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.22631",
+    "osVersion": "Windows 11 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 502890,
+        "nice": 0,
+        "sys": 431078,
+        "idle": 28165656,
+        "irq": 72468
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 110218,
+        "nice": 0,
+        "sys": 59718,
+        "idle": 28929453,
+        "irq": 1968
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 425484,
+        "nice": 0,
+        "sys": 152250,
+        "idle": 28521671,
+        "irq": 9468
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 116031,
+        "nice": 0,
+        "sys": 40640,
+        "idle": 28942718,
+        "irq": 3140
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 381890,
+        "nice": 0,
+        "sys": 104328,
+        "idle": 28613140,
+        "irq": 6812
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 105203,
+        "nice": 0,
+        "sys": 61046,
+        "idle": 28933140,
+        "irq": 2937
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 503531,
+        "nice": 0,
+        "sys": 137593,
+        "idle": 28458265,
+        "irq": 9781
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 113046,
+        "nice": 0,
+        "sys": 31015,
+        "idle": 28955328,
+        "irq": 781
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 321875,
+        "nice": 0,
+        "sys": 135812,
+        "idle": 28641687,
+        "irq": 6781
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 73718,
+        "nice": 0,
+        "sys": 28093,
+        "idle": 28997562,
+        "irq": 1156
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 219984,
+        "nice": 0,
+        "sys": 69875,
+        "idle": 28809515,
+        "irq": 3406
+      },
+      {
+        "model": "AMD Ryzen 5 5500U with Radeon Graphics         ",
+        "speed": 2096,
+        "user": 171703,
+        "nice": 0,
+        "sys": 53140,
+        "idle": 28874515,
+        "irq": 3437
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:02",
+        "address": "fe80::1afe:cc03:c463:586",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      },
+      {
+        "name": "Ethernet 2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:02",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "d8:f3:bc:59:98:5f",
+        "address": "fe80::5c13:29e6:e5f:4ad3",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "d8:f3:bc:59:98:5f",
+        "address": "172.18.162.215",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-S62BB85"
+  },
+  "javascriptStack": {
+    "message": "Error: ups",
+    "stack": [
+      "at sampleError (file:///C:/Users/USER/Documents/belajar-express/report.mjs:9:11)",
+      "at file:///C:/Users/USER/Documents/belajar-express/report.mjs:12:1",
+      "at ModuleJob.run (node:internal/modules/esm/module_job:271:25)",
+      "at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 6041600,
+    "executableMemory": 262144,
+    "totalCommittedMemory": 6041600,
+    "availableMemory": 2193610056,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2912,
+    "usedMemory": 5109416,
+    "memoryLimit": 2197815296,
+    "mallocedMemory": 163912,
+    "externalMemory": 1789273,
+    "peakMallocedMemory": 139536,
+    "nativeContextCount": 2,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1030912,
+        "used": 778920,
+        "available": 251992
+      },
+      "old_space": {
+        "memorySize": 3403776,
+        "committedMemory": 3403776,
+        "capacity": 3343000,
+        "used": 3105744,
+        "available": 237256
+      },
+      "code_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 245728,
+        "used": 51136,
+        "available": 194592
+      },
+      "shared_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_space": {
+        "memorySize": 1056768,
+        "committedMemory": 1056768,
+        "capacity": 1033064,
+        "used": 911456,
+        "available": 121608
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030912,
+        "used": 0,
+        "available": 1030912
+      },
+      "large_object_space": {
+        "memorySize": 270336,
+        "committedMemory": 270336,
+        "capacity": 262160,
+        "used": 262160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "shared_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff60284f0db",
+      "symbol": "node::GetNodeReport+14091"
+    },
+    {
+      "pc": "0x00007ff6028535ad",
+      "symbol": "node::TriggerNodeReport+3661"
+    },
+    {
+      "pc": "0x00007ff602852557",
+      "symbol": "node::TriggerNodeReport+3463"
+    },
+    {
+      "pc": "0x00007ff602851811",
+      "symbol": "node::TriggerNodeReport+65"
+    },
+    {
+      "pc": "0x00007ff6028e9c50",
+      "symbol": "node::OnFatalError+3600"
+    },
+    {
+      "pc": "0x00007ff6028eb18d",
+      "symbol": "node::OnFatalError+9037"
+    },
+    {
+      "pc": "0x00007ff6028eae3c",
+      "symbol": "node::OnFatalError+8188"
+    },
+    {
+      "pc": "0x00007ff5a344fa64",
+      "symbol": ""
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 1180094464,
+    "total_memory": 7896113152,
+    "rss": 33349632,
+    "available_memory": 1180098560,
+    "userCpuSeconds": 0.062,
+    "kernelCpuSeconds": 0.046,
+    "cpuConsumptionPercent": 10.8,
+    "userCpuConsumptionPercent": 6.2,
+    "kernelCpuConsumptionPercent": 4.6,
+    "maxRss": 55021568,
+    "pageFaults": {
+      "IORequired": 14022,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 1,
+      "writes": 4
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000023708162810"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff60737f6f0"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x0000023709ca2378",
+      "repeat": 0,
+      "firesInMsFromNow": -175743251,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000023709ca2418"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000023709ca2490"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000023709ca2508"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000023709ca2580"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000023709ca25f8"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000023708198d00",
+      "width": 108,
+      "height": 10,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000023709cd7230",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000023708198af0",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000023708197230",
+      "width": 108,
+      "height": 10,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x00007ff60760bcf0",
+      "loopIdleTimeSeconds": 6.79e-05
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\USER\\AppData\\Roaming",
+    "CARGO_HOME": "C:\\.cargo",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "133311274450878635",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_17792_EIUWQXMUOAWUKFGN",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-S62BB85",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "GOPATH": "C:\\Users\\USER\\go",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\USER",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk-19",
+    "LOCALAPPDATA": "C:\\Users\\USER\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-S62BB85",
+    "NUMBER_OF_PROCESSORS": "12",
+    "OneDrive": "C:\\Users\\USER\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\USER\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Python313\\Scripts\\;C:\\Python313\\;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Java\\jdk-19\\bin;C:\\Users\\USER\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Go\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\USER\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\flutter_windows_3.7.7-stable\\flutter\\bin;C:\\Users\\USER\\AppData\\Local\\Pub\\Cache\\bin;C:\\Users\\USER\\Git\\bin;C:\\Program Files\\nodejs;C:\\Users\\USER\\nodejs;C:\\Users\\USER\\go\\bin;C:\\Users\\USER\\AppData\\Roaming\\npm;C:\\.cargo\\bin;C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WinGet\\Links;C:\\Users\\USER\\AppData\\Roaming\\Python\\Python313\\Scripts;;c:\\Users\\USER\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "6801",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\USER\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\USER\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\USER\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-S62BB85",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-S62BB85",
+    "USERNAME": "USER",
+    "USERPROFILE": "C:\\Users\\USER",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "windir": "C:\\WINDOWS",
+    "WSLENV": "WT_SESSION:WT_PROFILE_ID:",
+    "WT_PROFILE_ID": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "WT_SESSION": "2a2f612f-8c6d-4ec6-8c61-97fb4da0dda8",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.102.1",
+    "LANG": "en_US.UTF-8",
+    "COLORTERM": "truecolor",
+    "CLAUDE_CODE_SSE_PORT": "41207",
+    "ENABLE_IDE_INTEGRATION": "true",
+    "GIT_ASKPASS": "c:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-cad78832a0-sock",
+    "VSCODE_INJECTION": "1"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\OLEAUT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\ole32.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\SHELL32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbgcore.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\nlansp_c.dll"
+  ]
+}
