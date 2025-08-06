@@ -3,7 +3,8 @@ import net from "net";
 const server = net.createServer((client) => {
   console.log("Client connected");
 
-  socket.addListener("data", (data) => {
+
+  client.addListener("data", (data) => {
     console.info(`Received data: ${data.toString()}`);
     client.write(`Hello: ${data.toString()}\r\n`);
   });
